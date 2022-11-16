@@ -1,0 +1,13 @@
+### Create property
+POST http://localhost:3000/properties
+Content-Type: application/json
+
+{
+  "title": "Departament en venta en Mar del Plata",
+  "description": "Venta de 3 amb calle con balcon saliente totalmente reciclado y amoblado Plaza Colón - A 1 cuadra de Plaza Colón, sobre la avenida",
+  "price": 135000,
+  "features": {
+    "surface": "60m2",
+    "bathrooms": 3
+  }
+}
