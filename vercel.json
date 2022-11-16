@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "outputDirectory": "dist",
   "buildCommand": "yarn build",
   "devCommand": "yarn start",
   "builds": [
