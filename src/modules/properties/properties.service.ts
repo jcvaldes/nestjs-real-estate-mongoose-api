@@ -20,8 +20,8 @@ export class PropertiesService {
     return this.propertyModel.find({});
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} property`;
+  findOne(id: string) {
+    return this.propertyModel.findById(id);
   }
 
   update(id: number, updatePropertyDto: UpdatePropertyDto) {
