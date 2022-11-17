@@ -17,7 +17,7 @@ export class PropertiesService {
   }
 
   findAll() {
-    return `This action returns all properties`;
+    return this.propertyModel.find({});
   }
 
   findOne(id: number) {
