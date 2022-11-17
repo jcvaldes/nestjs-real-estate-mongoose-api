@@ -3,7 +3,7 @@ POST http://localhost:3000/properties
 Content-Type: application/json
 
 {
-  "title": "Departament en venta en Mar del Plata",
+  "title": "Departaments en venta en Mar del Plata",
   "description": "Venta de 3 amb calle con balcon saliente totalmente reciclado y amoblado Plaza Colón - A 1 cuadra de Plaza Colón, sobre la avenida",
   "price": 135000,
   "features": {
@@ -11,3 +11,17 @@ Content-Type: application/json
     "bathrooms": 3
   }
 }
+
+### create rooms type
+POST http://localhost:3000/rooms-types
+Content-Type: application/json
+
+{
+  "description": "2 Habitaciones",
+  "points": 20,
+  "order": 1
+}
+
+### List of rooms
+
+GET http://localhost:3000/rooms-types

@@ -3,7 +3,8 @@ import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017', {
+    MongooseModule.forRoot('mongodb+srv://jcvaldes:<password>@cluster0.kgn4b.mongodb.net/test
+    ', {
       // user: 'redint',
       // pass: 'redint',
       dbName: 'redintdb',
